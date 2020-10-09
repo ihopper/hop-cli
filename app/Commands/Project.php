@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Console\Scheduling\Schedule;
 use LaravelZero\Framework\Commands\Command;
 
-class Project extends Command
+class Project extends Command implements CommandInterface
 {
     /**
      * The signature of the command.
